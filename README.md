@@ -1,0 +1,2 @@
+# Distress Discrepancies Test
+ This Python script is designed for real estate investors to analyze property distress indicators by comparing raw data against domain data, identifying discrepancies and mismatches in distress indicators, and exporting summarized results to an Excel file. The analysis focuses on various distress types such as bankruptcy, foreclosure, and tax delinquencies, among others, to aid in investment decision-making.
