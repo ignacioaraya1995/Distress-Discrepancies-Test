@@ -47,7 +47,7 @@ This Python script is designed for real estate investors to analyze property dis
    - **Raw Data:** CSV files with property listings and associated distress indicators.
 
 3. **Holly Nance Domain Configuration:**
-   The domain data should follow the COO configuration for export from the Holly Nance domain. Users can find this configuration in the Holly Nance domain, which includes fields for distress indicators, address, zipcode, buybox ID, likely deal score, buybox score, score, and link to the domain.
+   The domain data should follow the "COO config" for export from the Holly Nance domain. Users can find this configuration in the Holly Nance domain, which includes fields for distress indicators, address, zipcode, buybox ID, likely deal score, buybox score, score, and link to the domain.
 
 ## Usage
 
@@ -66,6 +66,7 @@ This Python script is designed for real estate investors to analyze property dis
 
 - **Discrepancies Summary Sheet:** Lists each distress type, the number of discrepancies, and the percentage of total properties affected, sorted by percentage.
 - **Mismatched Distress Summary Sheet:** Shows distress types where the raw data marked a distress as present (1) but the domain data did not (0), including the count and percentage.
+- **Full results analysis Sheet:** Show all the properties that matched between the raw and domain data and identifies which have the same distress in both lists, the distress in each list and more important information.
 
 ---
 
